@@ -1,7 +1,7 @@
 const ghpages = require('gh-pages');
 
 ghpages.publish(
-    '__sapper__/export/lecciones-SMI',
+    '__sapper__/export/lecciones-smi',
     {
         branch: 'master',
         repo: 'https://github.com/dabatistaa/leccion-ES.git',

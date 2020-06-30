@@ -6,7 +6,7 @@ import * as sapper from '@sapper/server';
 const { PORT, NODE_ENV } = process.env;
 const dev = NODE_ENV === 'development';
 
-const url = dev ? '/' : 'lecciones-SMI'; // <<-
+const url = dev ? '/' : 'lecciones-smi'; // <<-
 
 polka() // You can also use Express
 	.use(
