@@ -10,6 +10,7 @@ const url = dev ? '/' : 'lecciones-smi'; // <<-
 
 polka() // You can also use Express
 	.use(
+		url, // <<-
 		compression({ threshold: 0 }),
 		sirv('static', { dev }),
 		sapper.middleware()
